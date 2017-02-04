@@ -40,7 +40,7 @@ public class ConfiguracionMvc extends WebMvcConfigurationSupport {
     @Bean
     public ViewResolver internalResourceViewResolver() {
         InternalResourceViewResolver internalResourceViewResolver = new InternalResourceViewResolver();
-        internalResourceViewResolver.setPrefix("/WEB-INF/jsp/");
+        internalResourceViewResolver.setPrefix("/");
         internalResourceViewResolver.setSuffix(".jsp");
         return internalResourceViewResolver;
     }
