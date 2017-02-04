@@ -21,7 +21,7 @@ import org.springframework.core.io.support.PropertiesLoaderUtils;
  *
  * @author jaguilar
  */
-@Configuration
+//@Configuration
 public class ConfiguracionHikari {
 
     @Bean(destroyMethod = "close")

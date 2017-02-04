@@ -22,7 +22,7 @@ import org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter;
  *
  * @author jaguilar
  */
-@Configuration
+//@Configuration
 @PropertySource("classpath:/spring.properties")
 @EnableJpaRepositories("${spring.jpa.paqueteoad}")
 public class ConfiguracionJpa {
